@@ -1,0 +1,38 @@
+
+.container {
+    background-color: white;
+    padding: 10rem 4rem 1rem 4rem;
+    height: 600px;
+    position: relative;
+    h4 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        position: relative;
+        img {
+            height: 300px;
+            position: absolute;
+            top: -330px;
+            left: -2rem;
+        }
+    }
+    ul {
+        text-align: start;
+        border-top: 1px solid #FFCB2C;
+        list-style-type: square;
+        padding-block: 2rem;
+    }
+    li {
+        margin-bottom: 1rem;
+    }
+    button {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        margin-left: -100px;
+        font-weight: 600;
+        width: 200px;
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+}

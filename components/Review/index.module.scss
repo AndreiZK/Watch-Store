@@ -1,0 +1,30 @@
+
+
+.container {
+    text-align: center;
+    padding: 4rem 4rem;
+    background-color: white;
+    max-width: 40%;
+    position: relative;
+    min-height: 450px;
+    min-height: 500px;
+    h4 {
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    img {
+        height: 130px;
+        margin-bottom: 2rem;
+    }
+    span {
+        position: absolute;
+        bottom: 2rem;
+        right: 6rem;
+        color: lightgray;
+        
+    }
+}

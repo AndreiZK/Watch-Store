@@ -1,0 +1,15 @@
+
+
+button {
+    border: none;
+    background-color: #FFCB2C;
+    padding: 1.2em 3em;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        background-color: #246CE2;
+        color: white;
+    }
+} 

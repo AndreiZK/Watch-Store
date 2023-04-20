@@ -1,0 +1,17 @@
+
+
+.container {
+    padding: 2rem 12rem;
+    background-color: #FFCB2C;
+    display: flex;
+    justify-content: space-between;
+    p {
+        font-size: 1.2rem;
+    }
+    a {
+        margin-left: 2rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+}

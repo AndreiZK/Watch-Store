@@ -1,0 +1,19 @@
+//#FFCB2C
+
+.container {
+    text-align: center;
+    padding-block: 5rem;
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 5rem;
+    }
+    .tipsContainer {
+        width: 65%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        row-gap: 4rem;
+    }
+}

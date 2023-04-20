@@ -1,0 +1,43 @@
+
+
+.container {
+    background-color: #FFCB2C;
+    text-align: center;
+    padding-bottom: 1rem;
+    h2 {
+        font-size: 3rem;
+        padding-block: 5rem;
+        font-weight: 600;
+    }
+    .reviewsContainer {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        i {
+            font-size: 5rem;
+            cursor: pointer;
+        }
+    }
+
+    .dotsContainer {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        .dot {
+            display: inline-block;
+            background-color: lightgray;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            &.black {
+                background-color: black;
+            }
+        }
+    }
+}
